@@ -1,0 +1,63 @@
+head, body, html {
+    overflow-y: hidden;
+    vertical-align: auto;
+    color: black; 
+    font-family:monospace;
+    background-color: #144272;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+/* 
+#0A2647 Dark
+#144272
+#205295
+#2C74B3 Light
+*/
+ul {
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0A2647;
+    border-radius: 50px;
+  }
+  li {
+    
+    float: left;
+    padding-left: 20px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#144272;
+    
+  }
+
+  
+  .big{
+    height: 100vh;
+    background-color: #144272;
+  }
+  .container{
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+  }
+  .card{
+    border-radius: 50px;
+    font-size: 1.5vw;
+    padding-top: 10px;
+    color: white;
+    background-color: #205295;
+    text-align: center;
+    height: 100%
+  }
+  .inner{
+    margin-top: 20px;
+  }
