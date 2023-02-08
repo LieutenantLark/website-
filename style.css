@@ -1,35 +1,51 @@
+@font-face {
+  font-family: code;
+  src: url(font.ttf);
+}
+
 head, body, html {
     overflow-y: hidden;
     vertical-align: auto;
-    color: black; 
-    font-family:monospace;
-    background-color: #144272;
+    color: #7CFC00; 
+    font-family:code;
+    background-color: #000;
     margin-left: 3vw;
     margin-right: 3vw;
 }
+
+
 /* 
 #0A2647 Dark
 #144272
 #205295
 #2C74B3 Light
+
+
+alternates:
+#1D1CE5
+#4649FF
+#7978FF
+#C47AFF
 */
+
+
 ul {
     font-size: 1.5vw;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0A2647;
+    background-color:#4CBB17;
     border-radius: 50px;
   }
   li {
-    
+    color: #7CFC00;
     float: left;
     padding-left: 20px;
   }
   li a {
+    color: black;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,22 +55,20 @@ ul {
     
   }
 
-  
+
   .big{
     height: 100vh;
-    background-color: #144272;
   }
   .container{
     text-align: center;
-    color: white;
     font-size: 5vw;
   }
   .card{
     border-radius: 50px;
     font-size: 1.5vw;
     padding-top: 10px;
-    color: white;
-    background-color: #205295;
+    background-color:#4CBB17;
+    color: black;
     text-align: center;
     height: 100%
   }
