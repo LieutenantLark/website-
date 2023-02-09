@@ -51,7 +51,8 @@ ul {
     text-decoration: none;
   }
   li a:hover {
-    background-color:#144272;
+    background-color:black;
+    color: #7CFC00;
     
   }
 
@@ -70,8 +71,34 @@ ul {
     background-color:#4CBB17;
     color: black;
     text-align: center;
-    height: 100%
+    height: 100%;
+    
+    display: flex;
+    flex-direction: left;
+    align-items: center;
   }
   .inner{
     margin-top: 20px;
+  }
+
+
+  .typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid #4CBB17;;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: rgba(255,255,255,.75); }
+    50%{border-right-color: transparent;}
   }
